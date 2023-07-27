@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+body{
+	background-color: #FADB72;
+}
 * {
 	margin: 0px;
 	padding: 0px;
@@ -11,15 +14,19 @@ section {
 }
 
 section.topo {
-	width: 100vw;
+	width: 90vw;
 	height: 10vh;
-	background-color: #222326;
+	background-image: url(../img/linea.jpg);
+	margin-left: 5vw;
+	border-radius: 22px;
+	box-shadow: 5px 10px  #888888;
+	z-index: 2;
 }
 
 #imagem {
 	display: flex;
-	width: 7%;
-	height: 100%;
+	width: 5vw;
+	height: 10vh;
 }
 
 #imagem img {
@@ -106,16 +113,21 @@ section.conteudo {
 	height: 80vh;
 }
 
+iframe {
+	z-index: -1;
+}
+
 iframe.janela {
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 80vh;
 	border: 0px;
-	overflow: hidden;
+	margin-top: 5vh;
 }
 section.rodape {
 	width: 100vw;
 	height: 10vh;
-	background-color: #222326;
+	background-color: #F0D135;
+	z-index: 3;
 }
 
 #sobre {
@@ -130,24 +142,29 @@ section.rodape {
 }
 
 section.produtos {
+
 	width: 100vw;
-	height: auto;
+	height: 80vh;
 }
 
 div.produto {
-	width: 20%;
-	margin-left: 5%;
+	z-index: 2;
+	width: 20vw;
+	margin-left: 10vh;
 	height: 50vh;
 /*	border: 1px solid black;*/
 	border-radius: 10px;
 }
 
-div.produto h2 {
-	background-color: black;
+div.produto p {
 	color: white;
 }
 
 div.produto img {
-	width: 100%;
-	height: 100%;
+	width: 15vw;
+	height: 40vh;
+}
+
+div.produto button {
+	margin-left: 15vh;
 }
