@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-body{
-	background-color: #FADB72;
-}
 * {
 	margin: 0px;
 	padding: 0px;
@@ -14,18 +11,16 @@ section {
 }
 
 section.topo {
-	width: 90vw;
+	width: 100vw;
 	height: 10vh;
-	background-color:#F0D135;
-	margin-left: 5vw;
-	border-radius: 22px;
-	box-shadow: 5px 10px  #888888
+	/*background-color: #222326;*/
+	background-image: url("linea.jpg");
 }
 
 #imagem {
-	display: flex;
-	width: 7%;
+	width: 10%;
 	height: 100%;
+	background-color: #F2CB05;
 }
 
 #imagem img {
@@ -53,26 +48,25 @@ a {
 
 #menu {
 	width: 90%;
-	height: 100%;
-	margin-left: auto;
+	height: 100%; 
 }
 
 ul.nav {
 	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1vh;
+	margin-left: 18%;
+	margin-right: 10%;
+	margin-top: 0.5%;
 }
 
 ul.nav li {
 	text-align: center;
 	color: white;
 	font-family: 'Barlow Condensed', sans-serif;
-	width: 15vh;
+	width: 25%;
 	border: 1px solid white;
-	margin-left: 5%;
+	margin-right: 15%;
 	float: left;
-	font-size: 2vh;
+	font-size: 15pt;
 }
 
 ul.nav li ol {
@@ -121,7 +115,8 @@ iframe.janela {
 section.rodape {
 	width: 100vw;
 	height: 10vh;
-	background-color: #F0D135;
+	/*background-color: #222326;*/
+	background-image: url("linea.jpg");
 }
 
 #sobre {
