@@ -154,10 +154,12 @@ div.produto {
 	height: 50vh;
 /*	border: 1px solid black;*/
 	border-radius: 10px;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 div.produto p {
 	color: white;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 div.produto img {
