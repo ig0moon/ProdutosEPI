@@ -69,11 +69,11 @@ ul.nav li {
 	text-align: center;
 	color: white;
 	font-family: 'Barlow Condensed', sans-serif;
-	width: 15vh;
-	border: 1px solid white;
-	margin-left: 5%;
+	width: 17vh;
+	border: 2px solid white;
+	margin-left: 15%;
 	float: left;
-	font-size: 2vh;
+	font-size: 16pt;
 }
 
 ul.nav li ol {
