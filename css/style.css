@@ -168,5 +168,6 @@ div.produto img {
 }
 
 div.produto button {
-	margin-left: 15vh;
+	margin-left:auto;
+	margin-right: auto;
 }
