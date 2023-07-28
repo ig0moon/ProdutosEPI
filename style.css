@@ -69,11 +69,11 @@ ul.nav li {
 	text-align: center;
 	color: white;
 	font-family: 'Barlow Condensed', sans-serif;
-	width: 15vh;
-	border: 1px solid white;
-	margin-left: 5%;
+	width: 17vh;
+	border: 2px solid white;
+	margin-left: 15%;
 	float: left;
-	font-size: 2vh;
+	font-size: 16pt;
 }
 
 ul.nav li ol {
@@ -154,10 +154,12 @@ div.produto {
 	height: 50vh;
 /*	border: 1px solid black;*/
 	border-radius: 10px;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 div.produto p {
 	color: white;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 div.produto img {
@@ -166,9 +168,9 @@ div.produto img {
 }
 
 div.produto button {
-	margin-left: 15vh;
-	background-color: yellow;
-	width: 4vw;
-	border-radius: 20px;
+	margin-left:auto;
+	margin-right: auto;
 	box-shadow: 5px 5px grey;
+	border-radius: 20px;
+	background-color: yellow;
 }
