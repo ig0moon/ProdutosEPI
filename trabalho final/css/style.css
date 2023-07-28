@@ -198,3 +198,38 @@ div.ome img{
 	width: 20%;
 	height:30%
 }
+#divBusca{
+  background-color:#FADB72;
+  border:solid 2px black;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+  float: right;
+  margin-left: 100px;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:70%;
+}
+
+#btnBusca{
+  border: solid 2px black;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:30%;
+  font-weight:bold;
+  background:#FADB72;
+}
+section{
+	text-align: center;
+}
